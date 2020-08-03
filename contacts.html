@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+  </head>
+  <body>
+    <h2>Contacts:</h2>
+    <ul>
+      <li>Phone: <a href="tel:+79123456789">+7 (912) 34-56-789</a></li>
+      <li>Email: <a href="mailto:vladimir@skesov.com">vladimir@skesov.com</a></li>
+      <li>Twitter: <a href="http://twitter.com/skesov">Skesov</a></li>
+      <li>
+        Facebook:
+        <a href="http://facebook.com/vladimirskesov">Vladimir Skesov</a>
+      </li>
+    </ul>
+    <hr />
+    <h3>Leave a message</h3>
+    <form action="mailto:vladimir@skesov.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" /><br />
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" /><br />
+      <label>Input message</label>
+      <textarea name="yourMessage" cols="20" rows="10"></textarea><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
